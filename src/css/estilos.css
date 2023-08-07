@@ -1,0 +1,170 @@
+body{
+    width: 90%;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: grey;
+}
+header{
+    display: flex;
+    background-color: #2A2A2A;
+    justify-content: space-between;
+}
+#logoAprenser{
+    margin-left: 40px;
+    padding: 20px;
+}
+#lista-icons-header{
+list-style: none;
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+#lista-icons-header li{
+    margin-right: 30px;
+}
+#lista-icons-header li a{
+    text-decoration: none;
+    color: #FED001;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    border: solid 1px #FED001;
+    padding: 10px 20px 10px 20px;
+    font-size: 16px;
+}
+/*PRIMEIRA SEÇÃO*/
+.primeira-section{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(#fff,#FFFF38);
+}
+.textos-primeira-section{
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+.textos-primeira-section p{
+font-size: 80px;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+}
+.textos-primeira-section a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    background-color: #FED001;
+}
+/*SEGUNDA SEÇÃO*/
+.segunda-section{
+   text-align: center;
+   background-color: #Ffffff;
+   margin-top: -33px;
+}
+#h2-segunda-section{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #071D2E;
+    padding: 30px;
+}
+.imgs-cursos{
+    width: 390px;
+}
+.lista-cursos{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+.lista-cursos li{
+    border-radius: 10px;
+}
+.nome-curso{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    margin-right: 150px;
+}
+.info-curso{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    padding: 20px;
+}
+#btn-ver-cursos-segunda-section{
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: #2A2A2A;
+    background-color: #FED001;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+/*TERCEIRA SECTION*/
+
+.terceira-section{
+    display: flex;
+    background-color: #043072;
+}
+.terceira-section img{
+    width: 700px;
+    margin-left: 50px;
+}
+.text-terceira-section{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+#h2-terceira-section{
+    font-size: 35px;
+    padding: 30px;
+}
+#texto-escola{
+    width: 450px;
+    margin-left: 30px;
+}
+#p-terceira-section{
+    line-height: 1.5;
+    text-align: left;
+}
+/*QUARTA SECTION*/
+.quarta-section{
+    margin-top: -25px;
+    background-color: #fff;
+}
+.quarta-section h2{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.quarta-section img{
+    width: 1100px;
+    height: 500px;
+    margin-left: 100px;
+}
+.quarta-section p{
+    text-align: end;
+    padding-right: 20px;
+    line-height: 0.4;
+}
+.div-text{
+    padding-bottom: 20px;
+}
+/*FOOTER*/
+.div-footer{
+    background-color: black;
+    margin-top: -20px;
+    height: 125px;
+}
+footer p{
+    color: white;
+    padding: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
